@@ -7,6 +7,8 @@ import store from './store'
 import Api from './api'
 import App from './App.vue'
 
+import './assets/style/overviewInit.styl'
+
 Vue.use(VueRouter)
 Vue.use(Api)
 Vue.config.productionTip = false
